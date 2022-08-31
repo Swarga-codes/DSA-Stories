@@ -1,0 +1,357 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ASCIISubSequence",
+            "request": "launch",
+            "mainClass": "ASCIISubSequence",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubsequenceArrayList",
+            "request": "launch",
+            "mainClass": "SubsequenceArrayList",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subsequence",
+            "request": "launch",
+            "mainClass": "Subsequence",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch SkipAppNotApple",
+            "request": "launch",
+            "mainClass": "SkipAppNotApple",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch SkipAString",
+            "request": "launch",
+            "mainClass": "SkipAString",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySorted",
+            "request": "launch",
+            "mainClass": "ArraySorted",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySortedRecurse",
+            "request": "launch",
+            "mainClass": "ArraySortedRecurse",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryRecursion",
+            "request": "launch",
+            "mainClass": "BinaryRecursion",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleRecursion",
+            "request": "launch",
+            "mainClass": "BubbleRecursion",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountSteps",
+            "request": "launch",
+            "mainClass": "CountSteps",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountStepsLeetcode",
+            "request": "launch",
+            "mainClass": "CountStepsLeetcode",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountStepsRecursive",
+            "request": "launch",
+            "mainClass": "CountStepsRecursive",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountZeros",
+            "request": "launch",
+            "mainClass": "CountZeros",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Flipping",
+            "request": "launch",
+            "mainClass": "Flipping",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearOccurence",
+            "request": "launch",
+            "mainClass": "LinearOccurence",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearOccurence2",
+            "request": "launch",
+            "mainClass": "LinearOccurence2",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearOccurence3",
+            "request": "launch",
+            "mainClass": "LinearOccurence3",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearRecursion",
+            "request": "launch",
+            "mainClass": "LinearRecursion",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSubarray",
+            "request": "launch",
+            "mainClass": "MaximumSubarray",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortInPlace",
+            "request": "launch",
+            "mainClass": "MergeSortInPlace",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MountainArray",
+            "request": "launch",
+            "mainClass": "MountainArray",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch NoOfSetBits",
+            "request": "launch",
+            "mainClass": "NoOfSetBits",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch NthMagical",
+            "request": "launch",
+            "mainClass": "NthMagical",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch OneToN",
+            "request": "launch",
+            "mainClass": "OneToN",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Power",
+            "request": "launch",
+            "mainClass": "Power",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerBit",
+            "request": "launch",
+            "mainClass": "PowerBit",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerOf2",
+            "request": "launch",
+            "mainClass": "PowerOf2",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerofTwoLeetcode",
+            "request": "launch",
+            "mainClass": "PowerofTwoLeetcode",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProductOfDigits",
+            "request": "launch",
+            "mainClass": "ProductOfDigits",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch RangeXor",
+            "request": "launch",
+            "mainClass": "RangeXor",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecurseSeries",
+            "request": "launch",
+            "mainClass": "RecurseSeries",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseNumber",
+            "request": "launch",
+            "mainClass": "ReverseNumber",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseNumber2",
+            "request": "launch",
+            "mainClass": "ReverseNumber2",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotatedBinary",
+            "request": "launch",
+            "mainClass": "RotatedBinary",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotatedBinaryRecusion",
+            "request": "launch",
+            "mainClass": "RotatedBinaryRecusion",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionRecursion",
+            "request": "launch",
+            "mainClass": "SelectionRecursion",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch SkipAChar",
+            "request": "launch",
+            "mainClass": "SkipAChar",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch SkipACharRecurse",
+            "request": "launch",
+            "mainClass": "SkipACharRecurse",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfDigits",
+            "request": "launch",
+            "mainClass": "SumOfDigits",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOnetoN",
+            "request": "launch",
+            "mainClass": "SumOnetoN",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Triangle1",
+            "request": "launch",
+            "mainClass": "Triangle1",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Triangle2",
+            "request": "launch",
+            "mainClass": "Triangle2",
+            "projectName": "JavaDsa_a4870a4c"
+        }
+    ]
+}
