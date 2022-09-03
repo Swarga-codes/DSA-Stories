@@ -1,19 +1,39 @@
 import java.util.ArrayList;
 
+// import java.util.ArrayList;
+
 public class Permutations {
     public static void main(String[] args) {
-       System.out.println(lmao("","abc")); 
+       permute("","abc"); 
+       System.out.println(permutateStr("", "abc"));
     }
-    static ArrayList<String> lmao(String p,String up){
+    static void permute(String p,String up){
         if(up.isEmpty()){
-            ArrayList<String> list=new ArrayList<>();
+        System.out.println(p);
+        return;
+       }
+       char ch=up.charAt(0);
+       
+       for(int i=0;i<=p.length();i++){
+        String f=p.substring(0,i);
+        String e=p.substring(i, p.length());
+        permute(f+ch+e, up.substring(1));
+       }
+    }
+    static ArrayList<String> permutateStr(String p,String up){
+        if(up.isEmpty()){
+            ArrayList<String> list= new ArrayList<>();
             list.add(p);
             return list;
         }
+        ArrayList<String> ans=new ArrayList<>();
         char ch=up.charAt(0);
-        ArrayList<String> left=lmao(p+ch,up.substring(1));
-        ArrayList<String> right=lmao(p,up.substring(1));
-   left.addAll(right);
-   return left;
+        for(int i=0;i<=p.length();i++){
+        String f= p.substring(0, i);
+        String e= p.substring(i,p.length());
+        ans.addAll(permutateStr(f+ch+e, up.substring(1))); 
+    }
+    
+    return ans;
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PermutationCount",
+            "request": "launch",
+            "mainClass": "PermutationCount",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
             "name": "Launch IndexOfFirstOccurence",
             "request": "launch",
             "mainClass": "IndexOfFirstOccurence",
