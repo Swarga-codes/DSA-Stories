@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IndexOfFirstOccurence",
+            "request": "launch",
+            "mainClass": "IndexOfFirstOccurence",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateAnArray",
+            "request": "launch",
+            "mainClass": "RotateAnArray",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThirdMax",
+            "request": "launch",
+            "mainClass": "ThirdMax",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutations",
+            "request": "launch",
+            "mainClass": "Permutations",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch FizzBuzz",
+            "request": "launch",
+            "mainClass": "FizzBuzz",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
             "name": "Launch ASCIISubSequence",
             "request": "launch",
             "mainClass": "ASCIISubSequence",
