@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DieFace",
+            "request": "launch",
+            "mainClass": "DieFace",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dice",
+            "request": "launch",
+            "mainClass": "Dice",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch PhoneNumber",
+            "request": "launch",
+            "mainClass": "PhoneNumber",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationInOne",
+            "request": "launch",
+            "mainClass": "PermutationInOne",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutation2",
+            "request": "launch",
+            "mainClass": "Permutation2",
+            "projectName": "JavaDsa_a4870a4c"
+        },
+        {
+            "type": "java",
             "name": "Launch PermutationCount",
             "request": "launch",
             "mainClass": "PermutationCount",
