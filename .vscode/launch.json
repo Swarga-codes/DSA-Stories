@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ObjectDemo",
+            "request": "launch",
+            "mainClass": "ObjectDemo",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Inheritance.Main",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch demo2",
+            "request": "launch",
+            "mainClass": "demo2",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch DieFace",
+            "request": "launch",
+            "mainClass": "DieFace",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch MazeWithRestrictions",
+            "request": "launch",
+            "mainClass": "MazeWithRestrictions",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sudoku",
+            "request": "launch",
+            "mainClass": "Sudoku",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "SingleTon.Main",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Singleton",
+            "request": "launch",
+            "mainClass": "SingleTon.Singleton",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
             "name": "Launch DieFace",
             "request": "launch",
             "mainClass": "DieFace",
