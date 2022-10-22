@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "Exceptions.Demo",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Exceptions.Main",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Cloning.Main",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch LambdaFunctions",
+            "request": "launch",
+            "mainClass": "Generics.Comparing.LambdaFunctions",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Generics.Comparing.Main",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch WildCardExample",
+            "request": "launch",
+            "mainClass": "Generics.WildCardExample",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch CustomArrayListUsingGenerics",
+            "request": "launch",
+            "mainClass": "Generics.CustomArrayListUsingGenerics",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch CustomArrayList",
+            "request": "launch",
+            "mainClass": "Generics.CustomArrayList",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch HarryArray",
+            "request": "launch",
+            "mainClass": "HarryArray",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
             "name": "Launch ObjectDemo",
             "request": "launch",
             "mainClass": "ObjectDemo",
