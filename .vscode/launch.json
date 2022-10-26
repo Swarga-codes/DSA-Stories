@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "LinkedList.Main",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
             "name": "Launch Enums",
             "request": "launch",
             "mainClass": "Collections.Enums",
