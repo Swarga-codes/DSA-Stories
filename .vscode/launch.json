@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InbuiltExamples",
+            "request": "launch",
+            "mainClass": "StacksQueues.InbuiltExamples",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueMain",
+            "request": "launch",
+            "mainClass": "StacksQueues.QueueMain",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackMain",
+            "request": "launch",
+            "mainClass": "StacksQueues.StackMain",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "LinkedList.Main",
