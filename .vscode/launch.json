@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Node",
+            "request": "launch",
+            "mainClass": "Trees.Node",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
             "name": "Launch InbuiltExamples",
             "request": "launch",
             "mainClass": "StacksQueues.InbuiltExamples",
