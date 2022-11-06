@@ -3,7 +3,7 @@ package Trees;
 public class MaximumPathSum {
     public int MaxPathSummation(Node root){
         int[] path=new int[1];
-        path[0]=Integer.MAX_VALUE;
+        path[0]=Integer.MIN_VALUE;
         MaxPathFind(root, path);
         return path[0];
     }
