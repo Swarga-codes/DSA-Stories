@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrintTrees",
+            "request": "launch",
+            "mainClass": "Trees.PrintTrees",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaRegularExpression",
+            "request": "launch",
+            "mainClass": "JavaRegularExpression",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
             "name": "Launch Node",
             "request": "launch",
             "mainClass": "Trees.Node",
