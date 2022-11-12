@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Hashmaps",
+            "request": "launch",
+            "mainClass": "Hashing.Hashmaps",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hashsets",
+            "request": "launch",
+            "mainClass": "Hashing.Hashsets",
+            "projectName": "DSA-Stories_e50ff9c1"
+        },
+        {
+            "type": "java",
             "name": "Launch BinarySearchTree",
             "request": "launch",
             "mainClass": "Trees.BinarySearchTree",
