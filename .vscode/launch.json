@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MajorityElement",
+            "request": "launch",
+            "mainClass": "Hashing.MajorityElement",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "Launch Hashmaps",
             "request": "launch",
             "mainClass": "Hashing.Hashmaps",
