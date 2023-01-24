@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MergeSortedArrays",
+            "request": "launch",
+            "mainClass": "MergeSortedArrays",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MedianOfSortedArrays",
+            "request": "launch",
+            "mainClass": "MedianOfSortedArrays",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "LinkedList.Main",
