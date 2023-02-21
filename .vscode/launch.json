@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SingleElementInASortedArray",
+            "request": "launch",
+            "mainClass": "SingleElementInASortedArray",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "Launch SearchInsertPosition",
             "request": "launch",
             "mainClass": "SearchInsertPosition",
