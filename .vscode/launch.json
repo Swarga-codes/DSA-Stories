@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SortColors",
+            "request": "launch",
+            "mainClass": "SortColors",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "Launch SearchIn2DMatrix",
             "request": "launch",
             "mainClass": "SearchIn2DMatrix",
