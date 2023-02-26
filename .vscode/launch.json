@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseWordsInAString",
+            "request": "launch",
+            "mainClass": "ReverseWordsInAString",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "Launch MaximumNumberOfWordsInSentence",
             "request": "launch",
             "mainClass": "MaximumNumberOfWordsInSentence",
