@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TriangularSumOfAnArray",
+            "request": "launch",
+            "mainClass": "TriangularSumOfAnArray",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "PascalsTrianglePart2",
             "request": "launch",
             "mainClass": "PascalsTrianglePart2",
