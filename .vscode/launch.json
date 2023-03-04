@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddDigits",
+            "request": "launch",
+            "mainClass": "AddDigits",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CalculateDigitSumOfString",
             "request": "launch",
             "mainClass": "CalculateDigitSumOfString",
