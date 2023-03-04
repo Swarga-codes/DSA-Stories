@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculateDigitSumOfString",
+            "request": "launch",
+            "mainClass": "CalculateDigitSumOfString",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MinMaxGame",
             "request": "launch",
             "mainClass": "MinMaxGame",
