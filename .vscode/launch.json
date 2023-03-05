@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UglyNumber",
+            "request": "launch",
+            "mainClass": "UglyNumber",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "HappyNumber",
             "request": "launch",
             "mainClass": "HappyNumber",
