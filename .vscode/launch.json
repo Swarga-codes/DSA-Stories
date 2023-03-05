@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HappyNumber",
+            "request": "launch",
+            "mainClass": "HappyNumber",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "AddDigits",
             "request": "launch",
             "mainClass": "AddDigits",
