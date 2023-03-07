@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringCompression",
+            "request": "launch",
+            "mainClass": "StringCompression",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "UglyNumber",
             "request": "launch",
             "mainClass": "UglyNumber",
