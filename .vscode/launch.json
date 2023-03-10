@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MoveZeroes",
+            "request": "launch",
+            "mainClass": "MoveZeroes",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ApplyOperationsToArray",
             "request": "launch",
             "mainClass": "ApplyOperationsToArray",
