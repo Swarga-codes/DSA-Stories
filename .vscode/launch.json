@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SetMatrixZeroes",
+            "request": "launch",
+            "mainClass": "SetMatrixZeroes",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RemoveDuplicatesFromSortedArray",
             "request": "launch",
             "mainClass": "RemoveDuplicatesFromSortedArray",
