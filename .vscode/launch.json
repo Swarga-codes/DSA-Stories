@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KthFactorOfN",
+            "request": "launch",
+            "mainClass": "KthFactorOfN",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MoveZeroes",
             "request": "launch",
             "mainClass": "MoveZeroes",
