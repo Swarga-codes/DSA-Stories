@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SelfDividingNumbers",
+            "request": "launch",
+            "mainClass": "SelfDividingNumbers",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "KthFactorOfN",
             "request": "launch",
             "mainClass": "KthFactorOfN",
