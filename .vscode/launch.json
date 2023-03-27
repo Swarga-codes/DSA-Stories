@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CommonFactors",
+            "request": "launch",
+            "mainClass": "CommonFactors",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CountPrimes",
             "request": "launch",
             "mainClass": "CountPrimes",
