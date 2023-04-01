@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountAsterisks",
+            "request": "launch",
+            "mainClass": "CountAsterisks",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SingleNumber",
             "request": "launch",
             "mainClass": "SingleNumber",
