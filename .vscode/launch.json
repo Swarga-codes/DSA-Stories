@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DivideAStringIntoGroups",
+            "request": "launch",
+            "mainClass": "DivideAStringIntoGroups",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CountAsterisks",
             "request": "launch",
             "mainClass": "CountAsterisks",
