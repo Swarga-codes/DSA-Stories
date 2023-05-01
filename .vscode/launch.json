@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AverageSalaryExcludingMinimum",
+            "request": "launch",
+            "mainClass": "AverageSalaryExcludingMinimum",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ValidAnagrams",
             "request": "launch",
             "mainClass": "ValidAnagrams",
