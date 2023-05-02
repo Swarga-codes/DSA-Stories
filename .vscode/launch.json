@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SignOfProductArray",
+            "request": "launch",
+            "mainClass": "SignOfProductArray",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "AverageSalaryExcludingMinimum",
             "request": "launch",
             "mainClass": "AverageSalaryExcludingMinimum",
