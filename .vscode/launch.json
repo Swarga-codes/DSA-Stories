@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PeakElement",
+            "request": "launch",
+            "mainClass": "PeakElement",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SignOfProductArray",
             "request": "launch",
             "mainClass": "SignOfProductArray",
