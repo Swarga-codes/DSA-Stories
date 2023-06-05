@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidPalindrome",
+            "request": "launch",
+            "mainClass": "ValidPalindrome",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "TrailingZeroes",
             "request": "launch",
             "mainClass": "TrailingZeroes",
