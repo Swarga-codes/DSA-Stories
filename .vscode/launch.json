@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstPalindromicStringInArray",
+            "request": "launch",
+            "mainClass": "FirstPalindromicStringInArray",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ContainsDuplicate",
             "request": "launch",
             "mainClass": "ContainsDuplicate",
