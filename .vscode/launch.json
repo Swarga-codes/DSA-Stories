@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RowAndColumnOperations",
+            "request": "launch",
+            "mainClass": "RowAndColumnOperations",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MathisonAndPangrams",
             "request": "launch",
             "mainClass": "Hashing.MathisonAndPangrams",
