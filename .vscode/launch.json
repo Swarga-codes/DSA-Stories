@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JanmanshAndFruit",
+            "request": "launch",
+            "mainClass": "JanmanshAndFruit",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "BrokenTelephone",
             "request": "launch",
             "mainClass": "BrokenTelephone",
