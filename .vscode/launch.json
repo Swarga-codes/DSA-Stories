@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BrokenTelephone",
+            "request": "launch",
+            "mainClass": "BrokenTelephone",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RowAndColumnOperations",
             "request": "launch",
             "mainClass": "RowAndColumnOperations",
