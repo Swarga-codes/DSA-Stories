@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximumProduct",
+            "request": "launch",
+            "mainClass": "MaximumProduct",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "BombTheBase",
             "request": "launch",
             "mainClass": "BombTheBase",
