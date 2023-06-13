@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ChiefAndEid",
+            "request": "launch",
+            "mainClass": "ChiefAndEid",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MaximumProduct",
             "request": "launch",
             "mainClass": "MaximumProduct",
