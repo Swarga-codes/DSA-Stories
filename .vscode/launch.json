@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LazySalesman",
+            "request": "launch",
+            "mainClass": "LazySalesman",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ChiefAndEid",
             "request": "launch",
             "mainClass": "ChiefAndEid",
