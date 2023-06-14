@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HungryChef",
+            "request": "launch",
+            "mainClass": "HungryChef",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LazySalesman",
             "request": "launch",
             "mainClass": "LazySalesman",
