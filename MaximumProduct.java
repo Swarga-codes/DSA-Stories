@@ -10,18 +10,19 @@ public class MaximumProduct {
         }
        System.out.println(maxProduct(arr)); 
     }
-    public static int maxProduct(int[] arr){
-        int max=Integer.MIN_VALUE;
-        int prod=1;
-        for(int i=0;i<arr.length;i++){
-            prod*=arr[i];
-            if(max<prod){
-                max=prod;
+      public static int maxProduct(int[] nums) {
+        int max=nums[0],min=nums[0],ans=nums[0];
+        for(int i=0;i<nums.length;i++){
+            if(nums[i]<0){
+                int temp=max;
+                max=min;
+                min=temp;
             }
-            if(prod==0){
-                prod=1;
-            }
+            max=Math.max(max,max*nums[i]);
+            min=Math.min(min,min*nums[i]);
+             ans=Math.max(ans,max);
         }
-        return max;
+       
+        return ans;
     }
 }
