@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AdaAndCrayons",
+            "request": "launch",
+            "mainClass": "AdaAndCrayons",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "StringProtocol",
             "request": "launch",
             "mainClass": "StringProtocol",
