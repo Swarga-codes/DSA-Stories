@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CovidAndTheatreTickets",
+            "request": "launch",
+            "mainClass": "CovidAndTheatreTickets",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "AdaAndCrayons",
             "request": "launch",
             "mainClass": "AdaAndCrayons",
