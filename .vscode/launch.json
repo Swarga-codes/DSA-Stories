@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringProtocol",
+            "request": "launch",
+            "mainClass": "StringProtocol",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "HungryChef",
             "request": "launch",
             "mainClass": "HungryChef",
