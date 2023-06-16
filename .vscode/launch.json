@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxBinary",
+            "request": "launch",
+            "mainClass": "MaxBinary",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CovidAndTheatreTickets",
             "request": "launch",
             "mainClass": "CovidAndTheatreTickets",
