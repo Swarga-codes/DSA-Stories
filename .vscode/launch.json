@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveTrailingZeroesFromString",
+            "request": "launch",
+            "mainClass": "RemoveTrailingZeroesFromString",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MaxBinary",
             "request": "launch",
             "mainClass": "MaxBinary",
