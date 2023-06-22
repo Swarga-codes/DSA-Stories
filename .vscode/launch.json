@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ternarySearch",
+            "request": "launch",
+            "mainClass": "ternarySearch",
+            "projectName": "DSA-Stories_d2d13cf3"
+        },
+        {
+            "type": "java",
             "name": "NeitherMaxNorMin",
             "request": "launch",
             "mainClass": "NeitherMaxNorMin",
