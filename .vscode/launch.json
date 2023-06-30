@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfTwoIntegers",
+            "request": "launch",
+            "mainClass": "SumOfTwoIntegers",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ternarySearch",
             "request": "launch",
             "mainClass": "ternarySearch",
