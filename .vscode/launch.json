@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DetermineIfTwoEventsHaveConflict",
+            "request": "launch",
+            "mainClass": "DetermineIfTwoEventsHaveConflict",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MaximumCountOfPositiveAndNegative",
             "request": "launch",
             "mainClass": "MaximumCountOfPositiveAndNegative",
