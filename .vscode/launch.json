@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NegativeNumbersInASortedMatrix",
+            "request": "launch",
+            "mainClass": "NegativeNumbersInASortedMatrix",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SumOfTwoIntegers",
             "request": "launch",
             "mainClass": "SumOfTwoIntegers",
