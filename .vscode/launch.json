@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TotalDistanceTravelled",
+            "request": "launch",
+            "mainClass": "TotalDistanceTravelled",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindMinimumInARotatedSortedArray",
             "request": "launch",
             "mainClass": "FindMinimumInARotatedSortedArray",
