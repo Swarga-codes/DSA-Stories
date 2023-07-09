@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumSizeSubarraySum",
+            "request": "launch",
+            "mainClass": "MinimumSizeSubarraySum",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "NumberOf1Bits",
             "request": "launch",
             "mainClass": "NumberOf1Bits",
