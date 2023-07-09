@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfDistinctSubarraysWithLengthK",
+            "request": "launch",
+            "mainClass": "SumOfDistinctSubarraysWithLengthK",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ThreeSum",
             "request": "launch",
             "mainClass": "ThreeSum",
