@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ContainerWithMostWater",
+            "request": "launch",
+            "mainClass": "ContainerWithMostWater",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SumOfDistinctSubarraysWithLengthK",
             "request": "launch",
             "mainClass": "SumOfDistinctSubarraysWithLengthK",
