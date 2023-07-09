@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestSubstringWithoutRepeatingCharacters",
+            "request": "launch",
+            "mainClass": "LongestSubstringWithoutRepeatingCharacters",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MinimumSizeSubarraySum",
             "request": "launch",
             "mainClass": "MinimumSizeSubarraySum",
