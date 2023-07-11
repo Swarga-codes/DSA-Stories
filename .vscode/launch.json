@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidParentheses",
+            "request": "launch",
+            "mainClass": "ValidParentheses",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LongestSubstringWithoutRepeatingCharacters",
             "request": "launch",
             "mainClass": "LongestSubstringWithoutRepeatingCharacters",
