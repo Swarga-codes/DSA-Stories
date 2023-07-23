@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClimbingStairs",
+            "request": "launch",
+            "mainClass": "ClimbingStairs",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ReverseVowelsOfAString",
             "request": "launch",
             "mainClass": "ReverseVowelsOfAString",
