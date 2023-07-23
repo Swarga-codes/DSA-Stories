@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NthTribonacciSequence",
+            "request": "launch",
+            "mainClass": "NthTribonacciSequence",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ClimbingStairs",
             "request": "launch",
             "mainClass": "ClimbingStairs",
