@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MostProfitAssigningWork",
+            "request": "launch",
+            "mainClass": "MostProfitAssigningWork",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "KItemsWithMaximumSum",
             "request": "launch",
             "mainClass": "KItemsWithMaximumSum",
