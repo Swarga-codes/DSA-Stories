@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindPeakElement",
+            "request": "launch",
+            "mainClass": "FindPeakElement",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "TwoSumOptimal",
             "request": "launch",
             "mainClass": "TwoSumOptimal",
