@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoSumOptimal",
+            "request": "launch",
+            "mainClass": "TwoSumOptimal",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MostProfitAssigningWork",
             "request": "launch",
             "mainClass": "MostProfitAssigningWork",
