@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CheckIfAnArrayIsSortedAndRotated",
+            "request": "launch",
+            "mainClass": "CheckIfAnArrayIsSortedAndRotated",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindPeakElement",
             "request": "launch",
             "mainClass": "FindPeakElement",
