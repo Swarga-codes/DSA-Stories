@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountElementsWithStrictlySmallerAndGreaterElements",
+            "request": "launch",
+            "mainClass": "CountElementsWithStrictlySmallerAndGreaterElements",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MaxConsecutiveOnes",
             "request": "launch",
             "mainClass": "MaxConsecutiveOnes",
