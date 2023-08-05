@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NextPermutation",
+            "request": "launch",
+            "mainClass": "NextPermutation",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "PermutationII",
             "request": "launch",
             "mainClass": "PermutationII",
