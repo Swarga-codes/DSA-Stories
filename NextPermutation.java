@@ -6,6 +6,14 @@ public class NextPermutation {
        nextPermutation(nums);
        System.out.println(Arrays.toString(nums)); 
     }
+
+    // ALgorithm
+    // 1. Traverse from back and search for element such that arr[i]<arr[i+1]
+    // 2. Once we get that store than in some variable, for instance pos1
+    // 3. Now again traverse from back and find some element such that arr[i]>arr[pos1]
+    // 4. Again store this value of current index in some variable, such as pos2
+    // 5. Now swap the elements in these indices pos1 and pos2
+    // 6. Now reverse all the elements starting from pos1 till the end of the array
     public static void nextPermutation(int[] nums) {
         int pos1=0,pos2=0;
     for(int i=nums.length-2;i>=0;i--){
