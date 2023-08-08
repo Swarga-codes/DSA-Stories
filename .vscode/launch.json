@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestConsecutiveSequence",
+            "request": "launch",
+            "mainClass": "LongestConsecutiveSequence",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "NextPermutation",
             "request": "launch",
             "mainClass": "NextPermutation",
