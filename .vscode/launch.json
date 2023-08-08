@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindThreeConsecutiveIntegerThatSumToAGivenNumber",
+            "request": "launch",
+            "mainClass": "FindThreeConsecutiveIntegerThatSumToAGivenNumber",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LongestConsecutiveSequence",
             "request": "launch",
             "mainClass": "LongestConsecutiveSequence",
