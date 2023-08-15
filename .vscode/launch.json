@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfDigitsOfStringAfterConvert",
+            "request": "launch",
+            "mainClass": "SumOfDigitsOfStringAfterConvert",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CountIntegersWithEvenDigitSum",
             "request": "launch",
             "mainClass": "CountIntegersWithEvenDigitSum",
