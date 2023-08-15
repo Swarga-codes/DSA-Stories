@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountIntegersWithEvenDigitSum",
+            "request": "launch",
+            "mainClass": "CountIntegersWithEvenDigitSum",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SearchInRotatedSortedArrayII",
             "request": "launch",
             "mainClass": "SearchInRotatedSortedArrayII",
