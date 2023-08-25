@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveDuplicatesFromSortedArrayII",
+            "request": "launch",
+            "mainClass": "RemoveDuplicatesFromSortedArrayII",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SumOfDigitsOfStringAfterConvert",
             "request": "launch",
             "mainClass": "SumOfDigitsOfStringAfterConvert",
