@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "LongestCommonPrefix",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RemoveDuplicatesFromSortedArrayII",
             "request": "launch",
             "mainClass": "RemoveDuplicatesFromSortedArrayII",
