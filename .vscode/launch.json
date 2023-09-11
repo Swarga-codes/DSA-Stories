@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RomanToInteger",
+            "request": "launch",
+            "mainClass": "RomanToInteger",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "PlusOne",
             "request": "launch",
             "mainClass": "PlusOne",
