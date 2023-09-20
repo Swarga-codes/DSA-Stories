@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindTheDifferenceOfTwoArrays",
+            "request": "launch",
+            "mainClass": "FindTheDifferenceOfTwoArrays",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MergeStringsAlternately",
             "request": "launch",
             "mainClass": "MergeStringsAlternately",
