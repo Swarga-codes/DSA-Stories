@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IntersectionOfTwoArrays",
+            "request": "launch",
+            "mainClass": "IntersectionOfTwoArrays",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindTheDifferenceOfTwoArrays",
             "request": "launch",
             "mainClass": "FindTheDifferenceOfTwoArrays",
