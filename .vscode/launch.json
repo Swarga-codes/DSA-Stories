@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MostFrequentEvenElement",
+            "request": "launch",
+            "mainClass": "MostFrequentEvenElement",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MajorityElement2",
             "request": "launch",
             "mainClass": "MajorityElement2",
