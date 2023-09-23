@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BaseballGame",
+            "request": "launch",
+            "mainClass": "BaseballGame",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SortCharactersByFrequency",
             "request": "launch",
             "mainClass": "Hashing.SortCharactersByFrequency",
