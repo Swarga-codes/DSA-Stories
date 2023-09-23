@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestStringChain",
+            "request": "launch",
+            "mainClass": "LongestStringChain",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "BaseballGame",
             "request": "launch",
             "mainClass": "BaseballGame",
