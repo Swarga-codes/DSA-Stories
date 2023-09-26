@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindTheDifference",
+            "request": "launch",
+            "mainClass": "FindTheDifference",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LongestStringChain",
             "request": "launch",
             "mainClass": "LongestStringChain",
