@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveColoredPiecesIfBothNeighborsAreTheSameColor",
+            "request": "launch",
+            "mainClass": "RemoveColoredPiecesIfBothNeighborsAreTheSameColor",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ReverseWordsInAString3",
             "request": "launch",
             "mainClass": "ReverseWordsInAString3",
