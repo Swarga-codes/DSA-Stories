@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestSubarrayWithMaximumBitwiseAnd",
+            "request": "launch",
+            "mainClass": "LongestSubarrayWithMaximumBitwiseAnd",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RemoveColoredPiecesIfBothNeighborsAreTheSameColor",
             "request": "launch",
             "mainClass": "RemoveColoredPiecesIfBothNeighborsAreTheSameColor",
