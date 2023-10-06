@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IntegerBreak",
+            "request": "launch",
+            "mainClass": "IntegerBreak",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LongestSubarrayWithMaximumBitwiseAnd",
             "request": "launch",
             "mainClass": "LongestSubarrayWithMaximumBitwiseAnd",
