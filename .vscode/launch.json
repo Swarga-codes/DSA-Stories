@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HowManyNumbersAreSmallerThanTheCurrentNumber",
+            "request": "launch",
+            "mainClass": "HowManyNumbersAreSmallerThanTheCurrentNumber",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FirstLastPositionInSortedArray",
             "request": "launch",
             "mainClass": "FirstLastPositionInSortedArray",
