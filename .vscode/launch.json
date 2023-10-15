@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountItemsMatchingARule",
+            "request": "launch",
+            "mainClass": "CountItemsMatchingARule",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CheckIfTheSentenceIsPangram",
             "request": "launch",
             "mainClass": "CheckIfTheSentenceIsPangram",
