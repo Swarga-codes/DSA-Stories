@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProcessNumber",
+            "request": "launch",
+            "mainClass": "ProcessNumber",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CellsWithOddValuesInAMatrix",
             "request": "launch",
             "mainClass": "CellsWithOddValuesInAMatrix",
