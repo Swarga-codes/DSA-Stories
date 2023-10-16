@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddToArrayFormOfInteger",
+            "request": "launch",
+            "mainClass": "AddToArrayFormOfInteger",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ProcessNumber",
             "request": "launch",
             "mainClass": "ProcessNumber",
