@@ -4,22 +4,11 @@ public class MatrixDiagonalSum {
         System.out.println(diagonalSum(mat));
     }
     public static int diagonalSum(int[][] mat) {
-        int leftSum=0,rightSum=0,extra=0,k=mat[0].length-1;
-        for(int i=0;i<mat[0].length;i++){
-            for(int j=0;j<mat.length;j++){
-                if(i==j){
-                    leftSum+=mat[i][j];
-                }
-                if(j==k){
-                    rightSum+=mat[i][j];
-                    k--;
-                }
-            }
+        int leftSum=0,rightSum=0,m=0,n=mat.length-1;
+        for(int i=0;i<mat.length;i++){
+            leftSum+=mat[i][m++];
+            rightSum+=mat[i][n--];
         }
-        if(mat[0].length%2==0 && mat[0].length%2==0){
-            return leftSum+rightSum;
-        }
-        extra=mat[mat[0].length/2][mat.length/2];
-        return leftSum+rightSum-extra;
+       return mat.length%2==0?leftSum+rightSum:leftSum+rightSum-mat[mat.length/2][mat.length/2];
     }
 }
