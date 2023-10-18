@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoSum2",
+            "request": "launch",
+            "mainClass": "TwoSum2",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "OptimalPartitionOfString",
             "request": "launch",
             "mainClass": "OptimalPartitionOfString",
