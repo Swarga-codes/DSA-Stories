@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OptimalPartitionOfString",
+            "request": "launch",
+            "mainClass": "OptimalPartitionOfString",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "AddToArrayFormOfInteger",
             "request": "launch",
             "mainClass": "AddToArrayFormOfInteger",
