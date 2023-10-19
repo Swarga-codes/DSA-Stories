@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemovingStarsFromAString",
+            "request": "launch",
+            "mainClass": "StacksQueues.RemovingStarsFromAString",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "BackspaceStringCompare",
             "request": "launch",
             "mainClass": "StacksQueues.BackspaceStringCompare",
