@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ZeroOneKnapsack",
+            "request": "launch",
+            "mainClass": "DP.ZeroOneKnapsack",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "TwoSum2",
             "request": "launch",
             "mainClass": "TwoSum2",
