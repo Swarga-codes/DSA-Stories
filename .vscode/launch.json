@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveAllAdjacentDuplicatesInString",
+            "request": "launch",
+            "mainClass": "StacksQueues.RemoveAllAdjacentDuplicatesInString",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RemovingStarsFromAString",
             "request": "launch",
             "mainClass": "StacksQueues.RemovingStarsFromAString",
