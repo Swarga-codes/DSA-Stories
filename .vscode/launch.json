@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BackspaceStringCompare",
+            "request": "launch",
+            "mainClass": "StacksQueues.BackspaceStringCompare",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ZeroOneKnapsack",
             "request": "launch",
             "mainClass": "DP.ZeroOneKnapsack",
