@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThreeDivisors",
+            "request": "launch",
+            "mainClass": "ThreeDivisors",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FibonacciNumber",
             "request": "launch",
             "mainClass": "DP.FibonacciNumber",
