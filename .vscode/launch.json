@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FibonacciNumber",
+            "request": "launch",
+            "mainClass": "DP.FibonacciNumber",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RemoveAllAdjacentDuplicatesInString",
             "request": "launch",
             "mainClass": "StacksQueues.RemoveAllAdjacentDuplicatesInString",
