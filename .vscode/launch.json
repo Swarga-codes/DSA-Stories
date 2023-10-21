@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindGreatestCommonDivisorOfArray",
+            "request": "launch",
+            "mainClass": "FindGreatestCommonDivisorOfArray",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ThreeDivisors",
             "request": "launch",
             "mainClass": "ThreeDivisors",
