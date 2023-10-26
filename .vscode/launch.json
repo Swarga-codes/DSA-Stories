@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SenderWithLargestWordCount",
+            "request": "launch",
+            "mainClass": "SenderWithLargestWordCount",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "TopKFrequentWords",
             "request": "launch",
             "mainClass": "TopKFrequentWords",
