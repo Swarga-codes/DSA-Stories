@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TopKFrequentElements",
+            "request": "launch",
+            "mainClass": "TopKFrequentElements",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindGreatestCommonDivisorOfArray",
             "request": "launch",
             "mainClass": "FindGreatestCommonDivisorOfArray",
