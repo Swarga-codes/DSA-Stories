@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindTheOriginalArrayOfPrefixXOR",
+            "request": "launch",
+            "mainClass": "FindTheOriginalArrayOfPrefixXOR",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "KClosestPointsToOrigin",
             "request": "launch",
             "mainClass": "KClosestPointsToOrigin",
