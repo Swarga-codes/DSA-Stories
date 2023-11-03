@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BuildAnArrayWithStackOperations",
+            "request": "launch",
+            "mainClass": "BuildAnArrayWithStackOperations",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ContainsDuplicate2",
             "request": "launch",
             "mainClass": "ContainsDuplicate2",
