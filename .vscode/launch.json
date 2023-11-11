@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidMountainArray",
+            "request": "launch",
+            "mainClass": "ValidMountainArray",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindTheWinnerOfAnArrayGame",
             "request": "launch",
             "mainClass": "FindTheWinnerOfAnArrayGame",
