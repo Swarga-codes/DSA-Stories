@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortVowelsInAString",
+            "request": "launch",
+            "mainClass": "SortVowelsInAString",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ValidMountainArray",
             "request": "launch",
             "mainClass": "ValidMountainArray",
