@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CheckIfAnArrayIsSorted",
+            "request": "launch",
+            "mainClass": "Trees.CheckIfAnArrayIsSorted",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SortVowelsInAString",
             "request": "launch",
             "mainClass": "SortVowelsInAString",
