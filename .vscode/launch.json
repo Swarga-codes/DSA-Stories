@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumTriangleForGivenArray",
+            "request": "launch",
+            "mainClass": "SumTriangleForGivenArray",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CheckIfAnArrayIsSorted",
             "request": "launch",
             "mainClass": "Trees.CheckIfAnArrayIsSorted",
