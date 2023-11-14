@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProductOfTwoDigitNumbers",
+            "request": "launch",
+            "mainClass": "ProductOfTwoDigitNumbers",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SumTriangleForGivenArray",
             "request": "launch",
             "mainClass": "SumTriangleForGivenArray",
