@@ -1,3 +1,4 @@
+package OnlineTests;
 public class ProcessNumber {
     public static void main(String[] args) {
 		int n=19;

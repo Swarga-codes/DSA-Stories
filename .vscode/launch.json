@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindSumIDFC",
+            "request": "launch",
+            "mainClass": "OnlineTests.FindSumIDFC",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
+            "name": "SpecialNumberIDFC",
+            "request": "launch",
+            "mainClass": "OnlineTests.SpecialNumberIDFC",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ProductOfTwoDigitNumbers",
             "request": "launch",
             "mainClass": "ProductOfTwoDigitNumbers",
