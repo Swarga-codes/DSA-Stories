@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstUniqueCharacterInAString",
+            "request": "launch",
+            "mainClass": "FirstUniqueCharacterInAString",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CountCommonWordsWithOneOccurrence",
             "request": "launch",
             "mainClass": "CountCommonWordsWithOneOccurrence",
