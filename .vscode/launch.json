@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountElementsWithMaximumFrequency",
+            "request": "launch",
+            "mainClass": "Hashing.CountElementsWithMaximumFrequency",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FirstLetterToAppearTwice",
             "request": "launch",
             "mainClass": "FirstLetterToAppearTwice",
