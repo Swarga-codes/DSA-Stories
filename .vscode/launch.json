@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortArrayByParity",
+            "request": "launch",
+            "mainClass": "SortArrayByParity",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MinimumCommonValue",
             "request": "launch",
             "mainClass": "MinimumCommonValue",
