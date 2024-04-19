@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindMissingAndRepeating",
+            "request": "launch",
+            "mainClass": "FindMissingAndRepeating",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SortArrayByParity",
             "request": "launch",
             "mainClass": "SortArrayByParity",
