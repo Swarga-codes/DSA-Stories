@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximizeHappinessOfSelectedChildren",
+            "request": "launch",
+            "mainClass": "MaximizeHappinessOfSelectedChildren",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RelativeRanks",
             "request": "launch",
             "mainClass": "RelativeRanks",
