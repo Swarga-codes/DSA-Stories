@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestSubarrayWithSumK",
+            "request": "launch",
+            "mainClass": "LongestSubarrayWithSumK",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MissingNumberOptimal",
             "request": "launch",
             "mainClass": "MissingNumberOptimal",
