@@ -7,29 +7,26 @@ public class SortColors{
         System.out.println(Arrays.toString(nums));
     }
     public static void sortColors(int[] nums) {
-        int k=0,red=0,white=0,blue=0;
-        for(int i=0;i<nums.length;i++){
-            if(nums[i]==0){
-                red++;
+        //Dutch National Flag Algorithm 
+        int low=0,mid=0,high=nums.length-1;
+        while(mid<=high){
+            if(nums[mid]==0){
+                swap(nums,low,mid);
+                low++;
+                mid++;
             }
-            else if(nums[i]==1){
-                white++;
+            else if(nums[mid]==1){
+                mid++;
             }
             else{
-                blue++;
+                swap(nums,mid,high);
+                high--;
             }
         }
-        while(red!=0){
-            nums[k++]=0;
-            red--;
-        }
-        while(white!=0){
-            nums[k++]=1;
-            white--;
-        }
-        while(blue!=0){
-            nums[k++]=2;
-            blue--;
-        }
+    }
+    public static void swap(int[] nums,int idx1,int idx2){
+        int tmp=nums[idx1];
+        nums[idx1]=nums[idx2];
+        nums[idx2]=tmp;
     }
 }
