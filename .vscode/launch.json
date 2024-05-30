@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RearrangeElementsBySign",
+            "request": "launch",
+            "mainClass": "RearrangeElementsBySign",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MajorityElement",
             "request": "launch",
             "mainClass": "MajorityElement",
