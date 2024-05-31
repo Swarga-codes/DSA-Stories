@@ -8,44 +8,49 @@ public class NextPermutation {
     }
 
     // ALgorithm
-    // 1. Traverse from back and search for element such that arr[i]<arr[i+1]
-    // 2. Once we get that store than in some variable, for instance pos1
-    // 3. Now again traverse from back and find some element such that arr[i]>arr[pos1]
-    // 4. Again store this value of current index in some variable, such as pos2
-    // 5. Now swap the elements in these indices pos1 and pos2
-    // 6. Now reverse all the elements starting from pos1 till the end of the array
+    /*
+     * Traverse from the back of the array such that arr[i]<arr[i+1] here i is the dipping point.
+     * Now break the loop and check if we get the dipping point or not if not then we just reverse the array and return it
+     * Now in case we find the dipping point we start to examine the back of the array till the dipping point 
+     * Here we get the element that has the least difference between the dipping point that is greater than 0 element since the array after the dipping index is
+     * already sorted in decreasing order.
+     * Now we swap this element with the dipping element
+     * And then we sort the index from dipping point + 1 to the remaining array in ascending order
+     * In short we just need to reverse it since it was already sorted in decreasing order 
+     */
     public static void nextPermutation(int[] nums) {
-        int pos1=0,pos2=0;
-    for(int i=nums.length-2;i>=0;i--){
-                if(nums[i]<nums[i+1]){
-                    pos1=i;
-                    break;
-                }
+        if(nums.length==1) return;
+        int findDip=-1;
+        for(int i=nums.length-2;i>=0;i--){
+            if(nums[i]<nums[i+1]){
+                findDip=i;
+                break;
             }
-            for(int i=nums.length-1;i>=0;i--){
-                if(nums[pos1]<nums[i]){
-                    pos2=i;
-                    break;
-                }
-            }
-        if(pos1==0 && pos2==0){
-            int j=0,k=nums.length-1, tmp=0;
-            while(j<=k){
-                tmp=nums[j];
-                nums[j]=nums[k];
-                nums[k]=tmp;
-                j++;
-                k--;
-            }
+        }
+        if(findDip==-1){
+          reverse(nums,0,nums.length);
             return;
         }
-            int tmp=nums[pos1];
-            nums[pos1]=nums[pos2];
-            nums[pos2]=tmp;
-            int[] tmpArr=Arrays.copyOfRange(nums,pos1+1,nums.length);
-            int k=tmpArr.length-1;
-            for(int i=pos1+1;i<nums.length;i++){
-                nums[i]=tmpArr[k--];
-            }
-}
+        for(int i=nums.length-1;i>=findDip+1;i--){
+           if(nums[findDip]<nums[i]){
+             int tmp=nums[findDip];
+        nums[findDip]=nums[i];
+        nums[i]=tmp;
+        break;
+           }
+        }
+       
+    reverse(nums,findDip+1,nums.length);
+
+    }
+    public static void reverse(int[] nums,int start,int end){
+        int i=start, j=end-1;
+        while(i<=j){
+            int tmp=nums[i];
+            nums[i]=nums[j];
+            nums[j]=tmp;
+            i++;
+            j--;
+        }
+    }
 }
