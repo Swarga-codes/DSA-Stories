@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.HashSet;
 
 public class LongestConsecutiveSequence {
     public static void main(String[] args) {
@@ -6,22 +6,26 @@ public class LongestConsecutiveSequence {
        System.out.println(longestConsecutive(arr)); 
     }
      public static int longestConsecutive(int[] nums) {
-        if(nums.length<=1){
-            return nums.length;
+        HashSet<Integer> set=new HashSet<>();
+        for(int i=0;i<nums.length;i++){
+            set.add(nums[i]);
         }
-        Arrays.sort(nums);
-        int k=1,max=0;
-        for(int i=1;i<nums.length;i++){
-            if(nums[i]!=nums[i-1]){
-            if(nums[i]==nums[i-1]+1){
+        if(set.size()<2) return set.size();
+        int k=1,max=Integer.MIN_VALUE;
+        for(int el: set){
+            if(!set.contains(el-1)){
+            int tmp=el;
+            while(set.contains(tmp+1)){
                 k++;
+                tmp++;
             }
-            else{
-                max=Math.max(max,k);
-                k=1;
-            }
-            }
+            max=Math.max(max,k);
+            k=1;
+            
         }
-        return Math.max(max,k);
+        }
+        max=Math.max(max,k);
+        return max;
+
     }
 }
