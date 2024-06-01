@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximumAverageSubarrayI",
+            "request": "launch",
+            "mainClass": "MaximumAverageSubarrayI",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ScoreOfAString",
             "request": "launch",
             "mainClass": "ScoreOfAString",
