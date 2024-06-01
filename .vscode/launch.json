@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ScoreOfAString",
+            "request": "launch",
+            "mainClass": "ScoreOfAString",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LeadersInAnArray",
             "request": "launch",
             "mainClass": "LeadersInAnArray",
