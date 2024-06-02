@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindPivotIndex",
+            "request": "launch",
+            "mainClass": "FindPivotIndex",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MaximumAverageSubarrayI",
             "request": "launch",
             "mainClass": "MaximumAverageSubarrayI",
