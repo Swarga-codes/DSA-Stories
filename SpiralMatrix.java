@@ -8,38 +8,31 @@ public class SpiralMatrix {
     }
     public static List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> list=new ArrayList<>();
-        boolean[][] marked=new boolean[matrix.length][matrix[0].length];
-        int i=0,j=0,k=0;
-        while(list.size()<matrix.length*matrix[0].length){
-           
-            while(j<matrix[0].length-k && !marked[i][j]){
-                list.add(matrix[i][j]);
-                marked[i][j++]=true;
+        int top=0,left=0,right=matrix[0].length-1,bottom=matrix.length-1;
+        while(top<=bottom && left<=right){
+            for(int i=left;i<=right;i++){
+                list.add(matrix[top][i]);
             }
-            j--;
-            i++;
-            while(i<matrix.length-k && !marked[i][j]){
-                list.add(matrix[i][j]);
-                marked[i++][j]=true;
+            top++;
+            for(int i=top;i<=bottom;i++){
+                list.add(matrix[i][right]);
+            }
+            right--;
+            if(top>bottom){
+                break;
+            }
+            for(int i=right;i>=left;i--){
+                list.add(matrix[bottom][i]);
+            }
+            bottom--;
+           if(left>right){
+            break;
+           }
 
+            for(int i=bottom;i>=top;i--){
+                list.add(matrix[i][left]);
             }
-            i--;
-            j--;
-            while(j>=k && !marked[i][j]){
-                list.add(matrix[i][j]);
-                marked[i][j--]=true;
-
-            }
-            j++;
-            i--;
-            k++;
-            while(i>=k && !marked[i][j]){
-                list.add(matrix[i][j]);
-                marked[i--][j]=true;
-
-            }
-            i++;
-            j++;
+            left++;
         }
         return list;
     }
