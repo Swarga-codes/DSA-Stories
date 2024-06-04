@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpiralMatrix",
+            "request": "launch",
+            "mainClass": "SpiralMatrix",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RotateImage",
             "request": "launch",
             "mainClass": "RotateImage",
