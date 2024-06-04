@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotateImage",
+            "request": "launch",
+            "mainClass": "RotateImage",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LongestPalindrome",
             "request": "launch",
             "mainClass": "LongestPalindrome",
