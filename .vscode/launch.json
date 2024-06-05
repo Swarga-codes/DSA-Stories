@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindCommonCharacters",
+            "request": "launch",
+            "mainClass": "FindCommonCharacters",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MajorityElement2Optimized",
             "request": "launch",
             "mainClass": "MajorityElement2Optimized",
