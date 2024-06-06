@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LargestSubarrayWithZeroSum",
+            "request": "launch",
+            "mainClass": "LargestSubarrayWithZeroSum",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FourSum",
             "request": "launch",
             "mainClass": "FourSum",
