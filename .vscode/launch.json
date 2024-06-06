@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FourSum",
+            "request": "launch",
+            "mainClass": "FourSum",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindCommonCharacters",
             "request": "launch",
             "mainClass": "FindCommonCharacters",
