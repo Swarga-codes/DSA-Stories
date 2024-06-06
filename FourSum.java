@@ -7,29 +7,38 @@ public class FourSum {
       
     }
     public static List<List<Integer>> fourSum(int[] nums, int target) {
+        Arrays.sort(nums);
         List<List<Integer>> ans=new ArrayList<>();
-        HashSet<List<Integer>> set=new HashSet<>();
         for(int i=0;i<nums.length;i++){
+            if(i>0 && nums[i]==nums[i-1]) continue;
             for(int j=i+1;j<nums.length;j++){
-                     HashSet<Long> numSet=new HashSet<>();
-                for(int k=j+1;k<nums.length;k++){
-                        long sum=(long)nums[i]+nums[j]+nums[k];
-                        long req=(long)target-sum;
-                        if(numSet.contains(req)){
-                            List<Integer> list=new ArrayList<>();
-                            list.add(nums[i]);
-                            list.add(nums[j]);
-                            list.add(nums[k]);
-                            list.add((int)req);
-                            Collections.sort(list);
-                            if(!set.contains(list)){
-                                ans.add(list);
-                                set.add(list);
-                            }
+                if(j>i+1 && nums[j]==nums[j-1]) continue;
+                int k=j+1,l=nums.length-1;
+                while(k<l){
+                    long sum=(long)nums[i]+nums[j]+nums[k]+nums[l];
+                    if(sum>target){
+                        l--;
+                    }
+                    else if(sum<target){
+                       k++; 
+                    }
+                    else{
+                        List<Integer> currAns=new ArrayList<>();
+                        currAns.add(nums[i]);
+                        currAns.add(nums[j]);
+                        currAns.add(nums[k]);
+                        currAns.add(nums[l]);
+                        ans.add(currAns);
+                        k++;
+                        l--;
+                        while(k<l && nums[k]==nums[k-1]){
+                            k++;
                         }
-                        numSet.add((long)nums[k]);
-                        
-                    
+                        while(k<l && nums[l]==nums[l+1]){
+                            l--;
+                        }
+                    }
+
                 }
             }
         }
