@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HandOfStraights",
+            "request": "launch",
+            "mainClass": "HandOfStraights",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LargestSubarrayWithZeroSum",
             "request": "launch",
             "mainClass": "LargestSubarrayWithZeroSum",
