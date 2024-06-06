@@ -19,7 +19,7 @@ public class HandOfStraights {
         Arrays.sort(keys);
         for(int i=0;i<keys.length;i++){
             int count=map.get(keys[i]);
-            if(map.get(keys[i])>0){
+            if(count>0){
             for(int j=0;j<groupSize;j++){
                 int currCard=keys[i]+j;
                 if(!map.containsKey(currCard) || map.get(currCard)<count){
