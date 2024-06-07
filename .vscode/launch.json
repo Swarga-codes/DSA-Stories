@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MergeSortedArray",
+            "request": "launch",
+            "mainClass": "MergeSortedArray",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MergeIntervals",
             "request": "launch",
             "mainClass": "MergeIntervals",
