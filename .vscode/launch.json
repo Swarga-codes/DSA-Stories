@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountNegativeNumbersInASortedMatrix",
+            "request": "launch",
+            "mainClass": "CountNegativeNumbersInASortedMatrix",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MergeSortedArray",
             "request": "launch",
             "mainClass": "MergeSortedArray",
