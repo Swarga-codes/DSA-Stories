@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ContinuousSubarraySum",
+            "request": "launch",
+            "mainClass": "ContinuousSubarraySum",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CountNegativeNumbersInASortedMatrix",
             "request": "launch",
             "mainClass": "CountNegativeNumbersInASortedMatrix",
