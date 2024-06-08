@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SetMismatch",
+            "request": "launch",
+            "mainClass": "SetMismatch",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindMissingAndRepeatingOptimal",
             "request": "launch",
             "mainClass": "FindMissingAndRepeatingOptimal",
