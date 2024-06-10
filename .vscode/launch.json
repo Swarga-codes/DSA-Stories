@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RearrangeArrayToMaximizePrefixScore",
+            "request": "launch",
+            "mainClass": "RearrangeArrayToMaximizePrefixScore",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "HeightChecker",
             "request": "launch",
             "mainClass": "HeightChecker",
