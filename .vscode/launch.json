@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountInversions",
+            "request": "launch",
+            "mainClass": "CountInversions",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RelativeSortArray",
             "request": "launch",
             "mainClass": "RelativeSortArray",
