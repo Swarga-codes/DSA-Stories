@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RelativeSortArray",
+            "request": "launch",
+            "mainClass": "RelativeSortArray",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RearrangeArrayToMaximizePrefixScore",
             "request": "launch",
             "mainClass": "RearrangeArrayToMaximizePrefixScore",
