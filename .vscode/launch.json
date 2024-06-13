@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumNumberOfMovesToSeatEveryone",
+            "request": "launch",
+            "mainClass": "MinimumNumberOfMovesToSeatEveryone",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CountInversions",
             "request": "launch",
             "mainClass": "CountInversions",
