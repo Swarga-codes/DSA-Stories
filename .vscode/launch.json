@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumIncrementToMakeArrayUnique",
+            "request": "launch",
+            "mainClass": "MinimumIncrementToMakeArrayUnique",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "NumberOfOccurence",
             "request": "launch",
             "mainClass": "NumberOfOccurence",
