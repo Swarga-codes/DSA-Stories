@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CanPlaceFlowers",
+            "request": "launch",
+            "mainClass": "CanPlaceFlowers",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MinimumIncrementToMakeArrayUnique",
             "request": "launch",
             "mainClass": "MinimumIncrementToMakeArrayUnique",
