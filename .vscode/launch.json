@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IPO",
+            "request": "launch",
+            "mainClass": "IPO",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CanPlaceFlowers",
             "request": "launch",
             "mainClass": "CanPlaceFlowers",
