@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfSquaresOfSpecialElements",
+            "request": "launch",
+            "mainClass": "SumOfSquaresOfSpecialElements",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ValidPerfectSquare",
             "request": "launch",
             "mainClass": "ValidPerfectSquare",
