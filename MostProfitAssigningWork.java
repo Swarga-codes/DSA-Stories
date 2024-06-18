@@ -1,24 +1,30 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class MostProfitAssigningWork {
     public static void main(String[] args) {
         int[] difficulty = {85,47,57}, profit = {24,66,99}, worker = {40,25,25};
         System.out.println(maxProfitAssignment(difficulty, profit, worker));
     }
     public static int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
-        int s=0;
+        List<List<Integer>> list=new ArrayList<>();
+        for(int i=0;i<difficulty.length;i++){
+            List<Integer> curr=new ArrayList<>();
+            curr.add(difficulty[i]);
+            curr.add(profit[i]);
+            list.add(curr);
+        }
+        Collections.sort(list,(a,b)->a.get(0)-b.get(0));
+        Arrays.sort(worker);
+        int j=0,max=0,curr=0;
         for(int i=0;i<worker.length;i++){
-            s+=find(difficulty,worker[i],profit);
-        }
-        return s;
-    }
-    public static int find(int[] difficulty,int potential,int[] profit){
-        int max=Integer.MIN_VALUE;
-        for(int i=0;i<profit.length;i++){
-            if(max<profit[i] && difficulty[i]<=potential){
-                max=profit[i];
+            while(j<difficulty.length && list.get(j).get(0)<=worker[i]){
+                curr=Math.max(curr,list.get(j).get(1));
+                j++;
             }
-        }
-        if(max==Integer.MIN_VALUE){
-            return 0;
+            max+=curr;
         }
         return max;
     }
