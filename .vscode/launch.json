@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindNthRootOfM",
+            "request": "launch",
+            "mainClass": "FindNthRootOfM",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SumOfSquaresOfSpecialElements",
             "request": "launch",
             "mainClass": "SumOfSquaresOfSpecialElements",
