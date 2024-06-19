@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KthElementOfTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "KthElementOfTwoSortedArrays",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CapacityToShipPackagesWithinDDays",
             "request": "launch",
             "mainClass": "CapacityToShipPackagesWithinDDays",
