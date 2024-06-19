@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KokoEatingBananas",
+            "request": "launch",
+            "mainClass": "KokoEatingBananas",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindTheSmallestDivisorGivenAThreshold",
             "request": "launch",
             "mainClass": "FindTheSmallestDivisorGivenAThreshold",
