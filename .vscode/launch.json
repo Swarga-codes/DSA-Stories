@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindTheSmallestDivisorGivenAThreshold",
+            "request": "launch",
+            "mainClass": "FindTheSmallestDivisorGivenAThreshold",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MinimumNumberOfDaysToMakeMBouquets",
             "request": "launch",
             "mainClass": "MinimumNumberOfDaysToMakeMBouquets",
