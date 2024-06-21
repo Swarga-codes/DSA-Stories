@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GrumpyBookstoreOwner",
+            "request": "launch",
+            "mainClass": "GrumpyBookstoreOwner",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MagneticForceBetweenTwoBalls",
             "request": "launch",
             "mainClass": "MagneticForceBetweenTwoBalls",
