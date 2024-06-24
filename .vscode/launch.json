@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumNumberOfConsecutiveKBitFlips",
+            "request": "launch",
+            "mainClass": "MinimumNumberOfConsecutiveKBitFlips",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CountNumberOfNiceSubarrays",
             "request": "launch",
             "mainClass": "CountNumberOfNiceSubarrays",
