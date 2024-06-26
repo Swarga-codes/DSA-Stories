@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AggressiveCows",
+            "request": "launch",
+            "mainClass": "AggressiveCows",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "KthMissingPositiveNumber",
             "request": "launch",
             "mainClass": "KthMissingPositiveNumber",
