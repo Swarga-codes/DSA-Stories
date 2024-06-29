@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SplitArrayLargestSum",
+            "request": "launch",
+            "mainClass": "SplitArrayLargestSum",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "AllocateBooks",
             "request": "launch",
             "mainClass": "AllocateBooks",
