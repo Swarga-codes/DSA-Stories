@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AllocateBooks",
+            "request": "launch",
+            "mainClass": "AllocateBooks",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindCenterOfStarGraph",
             "request": "launch",
             "mainClass": "FindCenterOfStarGraph",
