@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PaintersPartitionProblem",
+            "request": "launch",
+            "mainClass": "PaintersPartitionProblem",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SplitArrayLargestSum",
             "request": "launch",
             "mainClass": "SplitArrayLargestSum",
