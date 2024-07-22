@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortThePeople",
+            "request": "launch",
+            "mainClass": "SortThePeople",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "PaintersPartitionProblem",
             "request": "launch",
             "mainClass": "PaintersPartitionProblem",
