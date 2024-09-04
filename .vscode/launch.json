@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestCommonPrefixAlternate",
+            "request": "launch",
+            "mainClass": "LongestCommonPrefixAlternate",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LargestOddNumberInString",
             "request": "launch",
             "mainClass": "LargestOddNumberInString",
