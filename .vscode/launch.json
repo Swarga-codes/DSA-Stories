@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IsomorphicStrings",
+            "request": "launch",
+            "mainClass": "IsomorphicStrings",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LongestCommonPrefixAlternate",
             "request": "launch",
             "mainClass": "LongestCommonPrefixAlternate",
