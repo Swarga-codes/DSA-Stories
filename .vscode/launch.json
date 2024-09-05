@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotateString",
+            "request": "launch",
+            "mainClass": "RotateString",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "IsomorphicStrings",
             "request": "launch",
             "mainClass": "IsomorphicStrings",
