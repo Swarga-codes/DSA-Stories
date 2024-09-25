@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReportSpamMessage",
+            "request": "launch",
+            "mainClass": "ReportSpamMessage",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "StringToIntegerAtoI",
             "request": "launch",
             "mainClass": "StringToIntegerAtoI",
