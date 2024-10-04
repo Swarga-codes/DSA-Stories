@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxNumberOfKSumPairs",
+            "request": "launch",
+            "mainClass": "MaxNumberOfKSumPairs",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "DividePlayersIntoTeamsOfEqualSkill",
             "request": "launch",
             "mainClass": "DividePlayersIntoTeamsOfEqualSkill",
