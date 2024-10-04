@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DividePlayersIntoTeamsOfEqualSkill",
+            "request": "launch",
+            "mainClass": "DividePlayersIntoTeamsOfEqualSkill",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
+            "name": "SumOfBeautyOfAllSubstrings",
+            "request": "launch",
+            "mainClass": "SumOfBeautyOfAllSubstrings",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ReportSpamMessage",
             "request": "launch",
             "mainClass": "ReportSpamMessage",
