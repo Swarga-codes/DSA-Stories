@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindAllAnagramsInAString",
+            "request": "launch",
+            "mainClass": "FindAllAnagramsInAString",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "PermutationInString",
             "request": "launch",
             "mainClass": "PermutationInString",
