@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SentenceSimilarity3",
+            "request": "launch",
+            "mainClass": "SentenceSimilarity3",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindAllAnagramsInAString",
             "request": "launch",
             "mainClass": "FindAllAnagramsInAString",
