@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumStringLengthAfterRemovingSubstrings",
+            "request": "launch",
+            "mainClass": "MinimumStringLengthAfterRemovingSubstrings",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SentenceSimilarity3",
             "request": "launch",
             "mainClass": "SentenceSimilarity3",
