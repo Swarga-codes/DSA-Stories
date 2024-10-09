@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumAddToMakeParenthesesValid",
+            "request": "launch",
+            "mainClass": "MinimumAddToMakeParenthesesValid",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MinimumNumberOfSwapsToMakeTheStringBalanced",
             "request": "launch",
             "mainClass": "MinimumNumberOfSwapsToMakeTheStringBalanced",
