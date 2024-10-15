@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumOperationsToExceedThresholdValueI",
+            "request": "launch",
+            "mainClass": "MinimumOperationsToExceedThresholdValueI",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MinimumOperationsToHalveArraySum",
             "request": "launch",
             "mainClass": "MinimumOperationsToHalveArraySum",
