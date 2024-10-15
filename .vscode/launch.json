@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumOperationsToHalveArraySum",
+            "request": "launch",
+            "mainClass": "MinimumOperationsToHalveArraySum",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "TakeGiftsFromTheRichestPile",
             "request": "launch",
             "mainClass": "TakeGiftsFromTheRichestPile",
