@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SeparateBlackAndWhiteBalls",
+            "request": "launch",
+            "mainClass": "SeparateBlackAndWhiteBalls",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RemoveStonesToMinimizeTheTotal",
             "request": "launch",
             "mainClass": "RemoveStonesToMinimizeTheTotal",
