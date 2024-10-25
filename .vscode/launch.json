@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoSumIIInputArrayIsSorted",
+            "request": "launch",
+            "mainClass": "TwoSumIIInputArrayIsSorted",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RemoveSubFoldersFromTheFileSystem",
             "request": "launch",
             "mainClass": "RemoveSubFoldersFromTheFileSystem",
