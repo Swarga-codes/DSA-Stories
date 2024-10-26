@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class MaximumSumWithExactlyKElements {
     public static void main(String[] args) {
         int[] nums={1,2,3,4,5};
@@ -8,10 +6,13 @@ public class MaximumSumWithExactlyKElements {
     }
     public static int maximizeSum(int[] nums, int k) {
         int sum=0;
-        Arrays.sort(nums);
+        int max=0;
+        for(int i=0;i<nums.length;i++){
+            max=Math.max(max,nums[i]);
+        }
         for(int i=1;i<=k;i++){
-            sum+=nums[nums.length-1];
-            nums[nums.length-1]++;
+            sum+=max;
+            max++;
         }
         return sum;
     }
