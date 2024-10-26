@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MostCommonWord",
+            "request": "launch",
+            "mainClass": "MostCommonWord",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "TwoSumIIInputArrayIsSorted",
             "request": "launch",
             "mainClass": "TwoSumIIInputArrayIsSorted",
