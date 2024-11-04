@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringCompression3",
+            "request": "launch",
+            "mainClass": "StringCompression3",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CircularSentence",
             "request": "launch",
             "mainClass": "CircularSentence",
