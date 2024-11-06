@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortIntegersByTheNumberOfOneBits",
+            "request": "launch",
+            "mainClass": "SortIntegersByTheNumberOfOneBits",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindIfArrayCanBeSorted",
             "request": "launch",
             "mainClass": "FindIfArrayCanBeSorted",
