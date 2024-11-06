@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindSubsequenceOfLengthKWithTheLargestSum",
+            "request": "launch",
+            "mainClass": "FindSubsequenceOfLengthKWithTheLargestSum",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SortIntegersByTheNumberOfOneBits",
             "request": "launch",
             "mainClass": "SortIntegersByTheNumberOfOneBits",
