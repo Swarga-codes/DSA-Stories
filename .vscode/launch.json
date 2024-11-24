@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DeleteCharactersToMakeAFancyString",
+            "request": "launch",
+            "mainClass": "DeleteCharactersToMakeAFancyString",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindSubsequenceOfLengthKWithTheLargestSum",
             "request": "launch",
             "mainClass": "FindSubsequenceOfLengthKWithTheLargestSum",
