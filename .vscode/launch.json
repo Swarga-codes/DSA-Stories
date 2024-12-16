@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MakingStringASubsequenceUsingCyclicIncrements",
+            "request": "launch",
+            "mainClass": "MakingStringASubsequenceUsingCyclicIncrements",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "AddingSpacesToAString",
             "request": "launch",
             "mainClass": "AddingSpacesToAString",
