@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximumNumberOfIntegersToChooseFromARangeI",
+            "request": "launch",
+            "mainClass": "MaximumNumberOfIntegersToChooseFromARangeI",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MakingStringASubsequenceUsingCyclicIncrements",
             "request": "launch",
             "mainClass": "MakingStringASubsequenceUsingCyclicIncrements",
