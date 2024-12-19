@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FinalPricesWIthSpecialDiscountInAShop",
+            "request": "launch",
+            "mainClass": "FinalPricesWIthSpecialDiscountInAShop",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MaximumNumberOfIntegersToChooseFromARangeI",
             "request": "launch",
             "mainClass": "MaximumNumberOfIntegersToChooseFromARangeI",
