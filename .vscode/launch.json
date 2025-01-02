@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Subsets2",
+            "request": "launch",
+            "mainClass": "Subsets2",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "Subsets",
             "request": "launch",
             "mainClass": "Subsets",
