@@ -7,23 +7,21 @@ public class Subsets2 {
         int[] nums={1,2,2};
         System.out.println(subsetsWithDup(nums));
     }
-      public static List<List<Integer>> subsetsWithDup(int[] nums) {
-         List<List<Integer>> res=new ArrayList<>();
-         Arrays.sort(nums);
+    public static List<List<Integer>> subsetsWithDup(int[] nums) {
+        List<List<Integer>> res=new ArrayList<>();
+        Arrays.sort(nums);
         solve(nums,0,new ArrayList<>(),res);
         return res;
     }
-     public static void solve(int[] nums,int i,List<Integer> ls,List<List<Integer>> res){
-        if(i==nums.length){
-            List<Integer> lst=new ArrayList<>(ls);
-            if(!res.contains(lst)){
-            res.add(lst);
+    public static void solve(int[] nums,int i,List<Integer> ls,List<List<Integer>> res){
+         res.add(new ArrayList<>(ls));
+        for(int j=i;j<nums.length;j++){
+            if(j>i && nums[j]==nums[j-1]){
+                continue;
             }
-            return;
+            ls.add(nums[j]);
+            solve(nums,j+1,ls,res);
+            ls.remove(ls.size()-1);
         }
-        ls.add(nums[i]);
-        solve(nums,i+1,ls,res);
-        ls.remove(ls.size()-1);
-        solve(nums,i+1,ls,res);
     }
 }
