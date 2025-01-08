@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CheckIfStringIsAPrefixOfAnArray",
+            "request": "launch",
+            "mainClass": "CheckIfStringIsAPrefixOfAnArray",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CountPrefixAndSuffixPairs1",
             "request": "launch",
             "mainClass": "CountPrefixAndSuffixPairs1",
