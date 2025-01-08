@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountPrefixAndSuffixPairs1",
+            "request": "launch",
+            "mainClass": "CountPrefixAndSuffixPairs1",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "StringMatchingInAnArray",
             "request": "launch",
             "mainClass": "StringMatchingInAnArray",
