@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseAStack",
+            "request": "launch",
+            "mainClass": "ReverseAStack",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CheckIfStringIsAPrefixOfAnArray",
             "request": "launch",
             "mainClass": "CheckIfStringIsAPrefixOfAnArray",
