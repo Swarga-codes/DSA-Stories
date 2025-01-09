@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidateIPAddress",
+            "request": "launch",
+            "mainClass": "ValidateIPAddress",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ReverseAStack",
             "request": "launch",
             "mainClass": "ReverseAStack",
