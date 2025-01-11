@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConstructKPalindromeStrings",
+            "request": "launch",
+            "mainClass": "ConstructKPalindromeStrings",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "StrongPasswordChecker2",
             "request": "launch",
             "mainClass": "StrongPasswordChecker2",
