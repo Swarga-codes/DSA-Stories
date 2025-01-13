@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountGoodNumbers",
+            "request": "launch",
+            "mainClass": "CountGoodNumbers",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SortAStack",
             "request": "launch",
             "mainClass": "SortAStack",
