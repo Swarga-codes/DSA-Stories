@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinaryStringWithNoConsecutiveOnes",
+            "request": "launch",
+            "mainClass": "BinaryStringWithNoConsecutiveOnes",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CountGoodNumbers",
             "request": "launch",
             "mainClass": "CountGoodNumbers",
