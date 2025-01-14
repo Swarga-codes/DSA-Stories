@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CombinationSum3",
+            "request": "launch",
+            "mainClass": "CombinationSum3",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "BinaryStringWithNoConsecutiveOnes",
             "request": "launch",
             "mainClass": "BinaryStringWithNoConsecutiveOnes",
