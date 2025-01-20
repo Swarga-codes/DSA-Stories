@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LetterCombinationsOfAPhoneNumber",
+            "request": "launch",
+            "mainClass": "LetterCombinationsOfAPhoneNumber",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SubsetSums",
             "request": "launch",
             "mainClass": "SubsetSums",
