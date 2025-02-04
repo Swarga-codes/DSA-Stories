@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximumAscendingSubarraySum",
+            "request": "launch",
+            "mainClass": "MaximumAscendingSubarraySum",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LongestStrictlyIncreasingOrDecreasingSubarray",
             "request": "launch",
             "mainClass": "LongestStrictlyIncreasingOrDecreasingSubarray",
