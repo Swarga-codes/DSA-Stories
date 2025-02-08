@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WordSearch",
+            "request": "launch",
+            "mainClass": "WordSearch",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "PalindromePartitioning",
             "request": "launch",
             "mainClass": "PalindromePartitioning",
