@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RatInAMaze",
+            "request": "launch",
+            "mainClass": "RatInAMaze",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "WordSearch",
             "request": "launch",
             "mainClass": "WordSearch",
