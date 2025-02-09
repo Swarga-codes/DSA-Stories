@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IndexOfTheFirstOccurenceOfPatternInAText",
+            "request": "launch",
+            "mainClass": "IndexOfTheFirstOccurenceOfPatternInAText",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RatInAMaze",
             "request": "launch",
             "mainClass": "RatInAMaze",
