@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveAllOccurencesOfASubstring",
+            "request": "launch",
+            "mainClass": "RemoveAllOccurencesOfASubstring",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "NQueens2",
             "request": "launch",
             "mainClass": "NQueens2",
