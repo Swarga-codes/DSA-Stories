@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NQueens2",
+            "request": "launch",
+            "mainClass": "NQueens2",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CountNumberOFBadPairs",
             "request": "launch",
             "mainClass": "CountNumberOFBadPairs",
