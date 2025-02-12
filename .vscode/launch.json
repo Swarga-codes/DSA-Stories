@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxSumOfPairWithEqualSumOfDigits",
+            "request": "launch",
+            "mainClass": "MaxSumOfPairWithEqualSumOfDigits",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "RemoveAllOccurencesOfASubstring",
             "request": "launch",
             "mainClass": "RemoveAllOccurencesOfASubstring",
