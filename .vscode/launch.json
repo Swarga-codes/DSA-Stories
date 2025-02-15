@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindThePunishmentOfAnInteger",
+            "request": "launch",
+            "mainClass": "FindThePunishmentOfAnInteger",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ValidSudoku",
             "request": "launch",
             "mainClass": "ValidSudoku",
