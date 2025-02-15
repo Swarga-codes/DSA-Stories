@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximumDifferenceBetweenIncreasingElements",
+            "request": "launch",
+            "mainClass": "MaximumDifferenceBetweenIncreasingElements",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindThePunishmentOfAnInteger",
             "request": "launch",
             "mainClass": "FindThePunishmentOfAnInteger",
