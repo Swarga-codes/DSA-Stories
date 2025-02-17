@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LetterTilePossibilities",
+            "request": "launch",
+            "mainClass": "LetterTilePossibilities",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "UniquePaths3",
             "request": "launch",
             "mainClass": "UniquePaths3",
