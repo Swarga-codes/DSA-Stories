@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrefixToInfix",
+            "request": "launch",
+            "mainClass": "PrefixToInfix",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "InfixToPostfix",
             "request": "launch",
             "mainClass": "InfixToPostfix",
