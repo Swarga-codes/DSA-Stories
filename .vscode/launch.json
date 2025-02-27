@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InfixToPostfix",
+            "request": "launch",
+            "mainClass": "InfixToPostfix",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "FindUniqueBinaryString",
             "request": "launch",
             "mainClass": "FindUniqueBinaryString",
