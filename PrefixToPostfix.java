@@ -26,28 +26,4 @@ public class PrefixToPostfix {
         if(ch=='^' || ch=='+' || ch=='-' || ch=='*' || ch=='/') return true;
         return false;
     }
-    static String reversal(String s){
-       int i=0,j=s.length()-1;
-       char[] ch=s.toCharArray();
-       while(i<=j){
-           if(isOperator(ch[i])){
-               i++;
-           }
-           if(isOperator(ch[j])){
-               j--;
-           }
-           else{
-               swap(ch,i,j);
-               i++;
-               j--;
-           }
-       }
-       return new String(ch);
-        
-    }
-    static void swap(char[] ch,int i,int j){
-        char tmp=ch[i];
-        ch[i]=ch[j];
-        ch[j]=tmp;
-    }
 }
