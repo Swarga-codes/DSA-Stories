@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NextGreaterElement1",
+            "request": "launch",
+            "mainClass": "NextGreaterElement1",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "PostfixToPrefix",
             "request": "launch",
             "mainClass": "PostfixToPrefix",
