@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NearestSmallestElement",
+            "request": "launch",
+            "mainClass": "NearestSmallestElement",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "NextGreaterElement2",
             "request": "launch",
             "mainClass": "NextGreaterElement2",
