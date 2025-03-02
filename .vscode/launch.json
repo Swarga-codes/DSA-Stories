@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NextGreaterElement2",
+            "request": "launch",
+            "mainClass": "NextGreaterElement2",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MergeTwo2DArraysBySummingValues",
             "request": "launch",
             "mainClass": "MergeTwo2DArraysBySummingValues",
