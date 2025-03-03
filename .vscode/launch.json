@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberOfGreaterElementsToTheRight",
+            "request": "launch",
+            "mainClass": "NumberOfGreaterElementsToTheRight",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "PartitionArrayAccordingToGivenPivot",
             "request": "launch",
             "mainClass": "PartitionArrayAccordingToGivenPivot",
