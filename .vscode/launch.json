@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountTotalNumberOfColoredCells",
+            "request": "launch",
+            "mainClass": "CountTotalNumberOfColoredCells",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "CheckIfANumberIsASumOfPowerOfThree",
             "request": "launch",
             "mainClass": "CheckIfANumberIsASumOfPowerOfThree",
