@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumRecolorsToGetKConsecutiveBlackBlocks",
+            "request": "launch",
+            "mainClass": "MinimumRecolorsToGetKConsecutiveBlackBlocks",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "ClosestPrimeNumbersInRange",
             "request": "launch",
             "mainClass": "ClosestPrimeNumbersInRange",
