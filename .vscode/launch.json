@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AlternatingGroups2",
+            "request": "launch",
+            "mainClass": "AlternatingGroups2",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MinimumRecolorsToGetKConsecutiveBlackBlocks",
             "request": "launch",
             "mainClass": "MinimumRecolorsToGetKConsecutiveBlackBlocks",
