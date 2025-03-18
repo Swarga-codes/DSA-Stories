@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfSubarrayMinimums",
+            "request": "launch",
+            "mainClass": "SumOfSubarrayMinimums",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "TrappingRainwater",
             "request": "launch",
             "mainClass": "TrappingRainwater",
