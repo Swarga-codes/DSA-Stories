@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfSubarrayRanges",
+            "request": "launch",
+            "mainClass": "SumOfSubarrayRanges",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SumOfSubarrayMinimums",
             "request": "launch",
             "mainClass": "SumOfSubarrayMinimums",
