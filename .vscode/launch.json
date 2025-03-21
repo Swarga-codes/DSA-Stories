@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximalRectangle",
+            "request": "launch",
+            "mainClass": "MaximalRectangle",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LargestRectangeInHistogram",
             "request": "launch",
             "mainClass": "LargestRectangeInHistogram",
