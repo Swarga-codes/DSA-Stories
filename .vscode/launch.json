@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DailyTemperatures",
+            "request": "launch",
+            "mainClass": "DailyTemperatures",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "SlidingWindowMaximum",
             "request": "launch",
             "mainClass": "SlidingWindowMaximum",
