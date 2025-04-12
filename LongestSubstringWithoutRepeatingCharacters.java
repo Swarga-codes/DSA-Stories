@@ -1,4 +1,6 @@
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingCharacters {
@@ -6,22 +8,17 @@ public class LongestSubstringWithoutRepeatingCharacters {
         String s="abcabcbb";
         System.out.println(lengthOfLongestSubstring(s));
     }
-     public static int lengthOfLongestSubstring(String s) {
-        if(s.length()==0) return 0;
-        int start=0,end=0;
-        Set<String> set=new HashSet<>();
-        int max=Integer.MIN_VALUE;
-        while(end<s.length()){
-            while(end<s.length() && !set.contains(s.charAt(end)+"")){
-                set.add(s.charAt(end++)+"");
+    public static int lengthOfLongestSubstring(String s) {
+        int max=0,start=0;
+        Map<Character,Integer> mp=new HashMap<>();
+        for(int i=0;i<s.length();i++){
+            char ch=s.charAt(i);
+            if(mp.containsKey(ch) && mp.get(ch)>=start){
+                start=mp.get(ch)+1;
             }
-            max=Math.max(max,end-start);
-            set.remove(s.charAt(start)+"");
-            start++;
+            mp.put(ch,i);
+            max=Math.max(max,i-start+1);
         }
-        if(max==Integer.MIN_VALUE){
-            return 0;
-        }
-        return max;
+return max;
     }
 }
