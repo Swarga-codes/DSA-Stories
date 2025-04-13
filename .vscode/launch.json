@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FruitIntoBaskets",
+            "request": "launch",
+            "mainClass": "FruitIntoBaskets",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "MaxConsecutiveOnes3",
             "request": "launch",
             "mainClass": "MaxConsecutiveOnes3",
