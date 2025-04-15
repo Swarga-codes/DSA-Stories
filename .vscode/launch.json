@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinarySubarraysWithSum",
+            "request": "launch",
+            "mainClass": "BinarySubarraysWithSum",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LongestRepeatingCharacterReplacement",
             "request": "launch",
             "mainClass": "LongestRepeatingCharacterReplacement",
