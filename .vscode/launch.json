@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubarraysWithKDifferentIntegers",
+            "request": "launch",
+            "mainClass": "SubarraysWithKDifferentIntegers",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "LongestKUniqueCharactersSubstring",
             "request": "launch",
             "mainClass": "LongestKUniqueCharactersSubstring",
