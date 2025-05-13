@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LemonadeChange",
+            "request": "launch",
+            "mainClass": "LemonadeChange",
+            "projectName": "DSA-Stories_4555d62c"
+        },
+        {
+            "type": "java",
             "name": "AssignCookies",
             "request": "launch",
             "mainClass": "AssignCookies",
