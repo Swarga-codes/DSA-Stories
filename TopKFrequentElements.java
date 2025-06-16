@@ -5,22 +5,22 @@ public class TopKFrequentElements {
         int k = 2;
         System.out.println(Arrays.toString(topKFrequent(nums, k)));
     }
-    public static int[] topKFrequent(int[] nums, int k) {
-        HashMap<Integer, Integer> map=new HashMap<>();
-        for(int i=0;i<nums.length;i++){
-            if(map.containsKey(nums[i])){
-                map.put(nums[i],map.get(nums[i])+1);
-            }
-            else{
-                map.put(nums[i],1);
+  public int[] topKFrequent(int[] nums, int k) {
+        Map<Integer,Integer> mp=new HashMap<>();
+        PriorityQueue<Map.Entry<Integer,Integer>> pq=new PriorityQueue<>((a,b)->Integer.compare(a.getValue(),b.getValue()));
+        for(int num:nums){
+            mp.put(num,mp.getOrDefault(num,0)+1);
+        }
+        for(Map.Entry<Integer,Integer> en:mp.entrySet()){
+            pq.add(en);
+            if(pq.size()>k){
+                pq.poll();
             }
         }
-      List<Integer> list=new ArrayList<>(map.keySet());
-      list.sort((a,b)->map.get(b)-map.get(a));
-      int[] res=new int[k];
-      for(int i=0;i<k;i++){
-          res[i]=list.get(i);
-      }
-      return res;
-}
+        int[] res=new int[k];
+        for(int i=0;i<k;i++){
+            res[i]=pq.poll().getKey();
+        }
+        return res;
+    }
 }
